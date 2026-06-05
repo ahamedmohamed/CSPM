@@ -1,0 +1,16 @@
+{
+    "project": "Automated CSPM Scanner",
+    "status": "Completed",
+    "findings": [
+        {
+            "resource": "IAM User: test-intern",
+            "severity": "HIGH",
+            "issue": "Multi-Factor Authentication (MFA) is NOT enabled for this user."
+        },
+        {
+            "resource": "Security Group: default (sg-0123456789abcdef0)",
+            "severity": "CRITICAL",
+            "issue": "Port 22 is completely exposed to the public internet (0.0.0.0/0)!"
+        }
+    ]
+}
